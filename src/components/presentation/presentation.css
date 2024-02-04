@@ -1,6 +1,6 @@
 main {
   width: 100%;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 main .container {
@@ -14,9 +14,11 @@ main .container {
 }
 
 .presentation h5 {
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bolder;
   margin-bottom: 10px;
   color: rgb(93, 93, 93);
+  margin-bottom: 28px;
 }
 
 .presentation h2 {
@@ -26,7 +28,25 @@ main .container {
 
 .h1Color {
   font-size: 46px;
-  color: #2d5473;
+  color: #4a95d2;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 26px;
+  font-weight: 800;
+  border: 1px solid #4a95d2;
+  color: rgb(255, 255, 255);
+  border-radius: 23px;
+  font-size: 15px;
+  background-color: #4a95d2;
+  margin-top: 28px;
+}
+
+button:hover {
+  background-color: white;
+  color: #4a95d2;
+  border: 1px solid #4a95d2;
 }
 
 @media (max-width: 900px) {
@@ -85,7 +105,7 @@ main .container {
 @media (max-width: 390px) {
   main {
     display: flex;
-    margin-top: 10px;
+    margin-top: 4px;
   }
   main .container {
     display: flex;
@@ -101,6 +121,10 @@ main .container {
     font-size: 29px;
   }
   .image img {
-    margin-top: 60px;
+    margin-top: 23px;
+  }
+  button {
+    padding: 10px 24px;
+    font-size: 12px;
   }
 }

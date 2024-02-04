@@ -1,0 +1,25 @@
+.container_about {
+  background-color: #4a95d2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 60%;
+  width: 90%;
+  margin: 60px auto 0;
+  padding: 15px;
+}
+
+.container_about h1 {
+  color: white;
+  font-size: 35px;
+  margin: 20px 0 40px;
+}
+
+.container_about p {
+  color: white;
+  font-size: 20px;
+  padding: 0px 10px;
+  line-height: 40px;
+  margin: 0px 0 40px;
+}

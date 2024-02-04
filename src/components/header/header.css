@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 
 header {
+  margin-top: 20px;
   width: 100%;
   background-color: #ffffff;
 }
@@ -16,7 +17,7 @@ header .container {
 }
 
 .logo h1 {
-  color: #2d5473;
+  color: #4a95d2;
 }
 
 header nav {
@@ -33,7 +34,7 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #2d5473;
+  color: #4a95d2;
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   font-weight: 900;
@@ -61,7 +62,7 @@ header nav ul li a .FiLogOut {
   cursor: pointer;
   font-size: 18px;
   text-decoration: none;
-  background-color: #2d5473;
+  background-color: #4a95d2;
   border-radius: 50%;
   color: #ffffff;
   padding: 12px 12px 5px;
@@ -88,7 +89,7 @@ header nav ul li a .FiLogOut {
   .one,
   .two,
   .three {
-    background-color: #2d5473;
+    background-color: #4a95d2;
     height: 3px;
     width: 63%;
     margin: 6px auto;
@@ -107,7 +108,7 @@ header nav ul li a .FiLogOut {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgb(93, 93, 93);
+    background: #4a95d2;
     z-index: 10;
     display: flex;
     justify-content: center;
