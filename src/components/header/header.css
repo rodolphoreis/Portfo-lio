@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+header {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60%;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
+.logo h1 {
+  color: #2d5473;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #2d5473;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+  padding: 2rem;
+  transition: all 250ms linear 0s;
+}
+
+header nav ul li a:hover {
+  font-size: 1.4rem;
+}
+header nav ul li a {
+  position: relative;
+  animation-name: menu;
+  animation-duration: 1s;
+  transition: 100ms;
+}
+
+header nav ul li a .FiLogOut {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.whatsapp-link {
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #2d5473;
+  border-radius: 50%;
+  color: #ffffff;
+  padding: 12px 12px 5px;
+  transition: all 250ms linear 0s;
+  margin-left: 30px;
+}
+
+@keyframes menu {
+  0% {
+    left: 0px;
+    top: -100px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 1120px) {
+  .menu-section nav {
+    display: none;
+  }
+
+  .one,
+  .two,
+  .three {
+    background-color: #2d5473;
+    height: 3px;
+    width: 63%;
+    margin: 6px auto;
+    transition-duration: 0.3s;
+  }
+  .menu-toggle {
+    width: 40px;
+    height: 30px;
+    margin-right: 20px;
+  }
+
+  /*Fullscreen*/
+  .menu-section.on {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(93, 93, 93);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-section.on nav {
+    display: block;
+  }
+
+  .menu-section.on .menu-toggle {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+  }
+
+  .menu-section.on .menu-toggle .one {
+    transform: rotate(45deg) translate(7px, 7px);
+    background-color: #fff;
+  }
+
+  .menu-section.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .menu-section.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -9px);
+    background-color: #fff;
+  }
+
+  .menu-section.on nav ul {
+    text-align: center;
+    display: block;
+  }
+
+  .menu-section.on nav ul a {
+    transition-duration: 0.5s;
+    font-size: 2rem;
+    display: block;
+    color: #fff;
+    padding: 1.8rem;
+    background: none;
+  }
+
+  header nav ul li a .FiLogOut {
+    width: 40px;
+  }
+  .menu-section.on nav ul .hide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 630px) {
+  html {
+    font-size: 70%;
+  }
+  .hero .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-group {
+    display: block;
+  }
+}
+
+@media (max-width: 320px) {
+  #form h3 {
+    font-size: 2rem;
+  }
+}

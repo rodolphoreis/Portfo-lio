@@ -1,0 +1,106 @@
+main {
+  width: 100%;
+  margin-top: 60px;
+}
+
+main .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60%;
+  width: 90%;
+  margin: auto;
+  padding: 15px;
+}
+
+.presentation h5 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: rgb(93, 93, 93);
+}
+
+.presentation h2 {
+  font-size: 46px;
+  color: rgb(93, 93, 93);
+}
+
+.h1Color {
+  font-size: 46px;
+  color: #2d5473;
+}
+
+@media (max-width: 900px) {
+  .presentation h5 {
+    font-size: 14px;
+  }
+  .presentation h2 {
+    font-size: 29px;
+  }
+  .h1Color {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 690px) {
+  main {
+    display: flex;
+  }
+  main .container {
+    display: flex;
+    flex-flow: column;
+  }
+  .presentation h5 {
+    font-size: 16px;
+  }
+  .presentation h2 {
+    font-size: 46px;
+  }
+  .h1Color {
+    font-size: 46px;
+  }
+  .image img {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 575px) {
+  main {
+    display: flex;
+  }
+  main .container {
+    display: flex;
+    flex-flow: column;
+  }
+  .presentation h5 {
+    font-size: 14px;
+  }
+  .presentation h2 {
+    font-size: 36px;
+  }
+  .h1Color {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 390px) {
+  main {
+    display: flex;
+    margin-top: 10px;
+  }
+  main .container {
+    display: flex;
+    flex-flow: column;
+  }
+  .presentation h5 {
+    font-size: 16px;
+  }
+  .presentation h2 {
+    font-size: 29px;
+  }
+  .h1Color {
+    font-size: 29px;
+  }
+  .image img {
+    margin-top: 60px;
+  }
+}
