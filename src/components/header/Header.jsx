@@ -28,14 +28,17 @@ const Header = () => {
                 <a href="#about">Sobre</a>
               </li>
               <li>
-                <a href="/">Skills</a>
+                <a href="#skills">Habilidades</a>
+              </li>
+              <li>
+                <a href="#projetos">Projetos</a>
               </li>
               <li>
                 <a href="/">Contatos</a>
               </li>
               <li>
                 <a
-                  class="whatsapp-link"
+                  className="whatsapp-link"
                   href="https://web.whatsapp.com/send?phone=351938343482"
                   target="_blank"
                 >

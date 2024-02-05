@@ -1,6 +1,6 @@
 main {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 120px;
 }
 
 main .container {
@@ -22,13 +22,18 @@ main .container {
 }
 
 .presentation h2 {
-  font-size: 46px;
+  font-size: 66px;
   color: rgb(93, 93, 93);
 }
 
 .h1Color {
-  font-size: 46px;
+  font-size: 66px;
   color: #4a95d2;
+}
+
+.image img {
+  width: 348px;
+  margin-right: 44px;
 }
 
 button {
@@ -51,13 +56,18 @@ button:hover {
 
 @media (max-width: 900px) {
   .presentation h5 {
-    font-size: 14px;
+    font-size: 18px;
   }
   .presentation h2 {
-    font-size: 29px;
+    font-size: 39px;
   }
   .h1Color {
-    font-size: 36px;
+    font-size: 40px;
+  }
+  .image img {
+    width: 308px;
+    margin-right: 0px;
+    margin-top: 40px;
   }
 }
 
@@ -78,7 +88,10 @@ button:hover {
   .h1Color {
     font-size: 46px;
   }
+
   .image img {
+    width: 308px;
+    margin-right: 0px;
     margin-top: 60px;
   }
 }
@@ -126,5 +139,26 @@ button:hover {
   button {
     padding: 10px 24px;
     font-size: 12px;
+  }
+}
+@media (max-width: 340px) {
+  main {
+    display: flex;
+    margin-top: 69px;
+  }
+  .presentation h5 {
+    font-size: 16px;
+  }
+  .presentation h2 {
+    font-size: 24px;
+    line-height: 45px;
+  }
+  .h1Color {
+    font-size: 24px;
+  }
+  .image img {
+    width: 257px;
+    margin-right: 0px;
+    margin-top: 50px;
   }
 }
