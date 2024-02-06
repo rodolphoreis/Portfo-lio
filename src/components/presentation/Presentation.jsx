@@ -28,7 +28,7 @@ const Presentation = () => {
           </button>
         </div>
         <div data-aos="fade-left" className="image">
-          <img src="./img/fotoCapa.png" alt="Minha Foto de Apresentação" />
+          <img src="./img/Foto.png" alt="Minha Foto de Apresentação" />
         </div>
       </div>
     </main>

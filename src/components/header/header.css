@@ -26,9 +26,6 @@ header .container {
 header nav {
   display: flex;
 }
-.active {
-  color: rgb(93, 93, 93);
-}
 
 header nav ul {
   display: flex;
@@ -50,6 +47,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
   font-size: 1.4rem;
+  color: rgb(93, 93, 93);
 }
 header nav ul li a {
   position: relative;
@@ -75,6 +73,13 @@ header nav ul li a .FiLogOut {
   transition: all 250ms linear 0s;
   margin-left: 30px;
 }
+.whatsapp-link:hover {
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: rgb(93, 93, 93);
+  color: white;
+}
 
 @keyframes menu {
   0% {
@@ -90,6 +95,9 @@ header nav ul li a .FiLogOut {
 @media (max-width: 1120px) {
   .menu-section nav {
     display: none;
+  }
+  .whatsapp-link {
+    margin-left: 0px;
   }
 
   .one,
@@ -113,7 +121,7 @@ header nav ul li a .FiLogOut {
     top: -4px;
     left: 0;
     width: 100vw;
-    height: 59vh;
+    height: 77vh;
     background: #4a95d2;
     z-index: 10;
     display: flex;

@@ -17,10 +17,12 @@
 }
 .container .projetos p {
   color: rgb(93, 93, 93);
-  font-size: 20px;
+  font-size: 19px;
   padding: 0px 10px;
-  line-height: 40px;
+  line-height: 36px;
   margin: 0 0 40px;
+  text-align: left;
+  padding-right: 40px;
 }
 .projetos_cards {
   display: flex;
@@ -68,4 +70,13 @@
 }
 .custom-card .custom-button:hover {
   color: rgb(93, 93, 93);
+}
+
+@media (max-width: 400px) {
+  .container .projetos p {
+    padding: 0;
+  }
+  .container .projetos {
+    margin: -45px auto;
+  }
 }

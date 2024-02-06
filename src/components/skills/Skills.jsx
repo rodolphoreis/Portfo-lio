@@ -3,7 +3,7 @@ import "./skills.css";
 const Skills = () => {
   return (
     <div className="container_skills">
-      <div id="skills" className="text">
+      <div id="skills" className="text" data-aos="zoom-in">
         <h1>Habilidades</h1>
       </div>
       <div id="skills" className="skills">

@@ -39,6 +39,9 @@
 }
 
 @media (max-width: 390px) {
+  .container_skills {
+    margin-top: -35px;
+  }
   .container_skills h1 {
     color: rgb(93, 93, 93);
     font-size: 35px;
