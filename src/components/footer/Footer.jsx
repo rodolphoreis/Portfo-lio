@@ -1,7 +1,7 @@
 import React from "react";
 import { FaEnvelope, FaPhone, FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
-import "./Footer.css";
+import "./footer.css";
 
 const Footer = () => {
   return (
