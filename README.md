@@ -9,7 +9,7 @@ Este é o meu site pessoal de portfólio construído usando React. Ele exibe meu
 - **Ícones do React:** Usa a biblioteca de ícones do React para incluir vários ícones para mídias sociais e informações de contato.
 - **Animação nos Cards de Projetos:** Implementa animações nos cards de projetos para aumentar o apelo visual.
 
-##Clone o repositório:
+## Clone o repositório:
 
 git clone https://github.com/rodolphoreis/Portfo-lio.git
 
