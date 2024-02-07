@@ -26,8 +26,8 @@ const HoverCard = () => {
               design responsivo, animações AOS e uma experiência amigável ao
               usuário.
             </p>
-            <a href="#">GitHub</a>
-            <a href="#">Deploy</a>
+            <a href="https://github.com/rodolphoreis/Dental-Clinic">GitHub</a>
+            <a href="https://dental-clinic-rafaella.vercel.app/">Deploy</a>
           </div>
         </div>
 
