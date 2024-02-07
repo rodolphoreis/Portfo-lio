@@ -3,6 +3,9 @@ import "./about.css";
 const About = () => {
   return (
     <div className="container_about">
+      <div className="photo_about_left" data-aos="fade-right">
+        <img src="/img/fotoAbout.png" alt="Desenvolvedor" />
+      </div>
       <div className="text_about" data-aos="fade-right">
         <h1 id="about">Sobre</h1>
         <p>
@@ -21,7 +24,7 @@ const About = () => {
           mundo real. Vamos trabalhar juntos para dar vida às suas ideias!
         </p>
       </div>
-      <div className="photo_about" data-aos="fade-left">
+      <div className="photo_about_right" data-aos="fade-left">
         <img src="/img/fotoAbout.png" alt="Desenvolvedor" />
       </div>
     </div>
