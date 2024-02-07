@@ -24,7 +24,7 @@ Projetos: Navegue pelos meus projetos em destaque e clique neles para mais detal
 Habilidades: Confira minhas habilidades e tecnologias nas quais sou proficiente.
 Contato: Use o formulário de contato fornecido ou os links diretos para entrar em contato comigo por e-mail, WhatsApp, LinkedIn ou GitHub.
 
-# Contribuição
+## Contribuição
 Se você gostaria de contribuir com este projeto, por favor faça um fork do repositório, faça suas alterações e envie um pull request.
 
 
