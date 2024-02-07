@@ -31,4 +31,4 @@ E-mail: rodolphoreis@live.com
 LinkedIn: https://www.linkedin.com/in/rodolphoreis/
 GitHub: https://github.com/rodolphoreis
 
-# Obrigado por visitar meu portfólio! 
+## Obrigado por visitar meu portfólio! 
