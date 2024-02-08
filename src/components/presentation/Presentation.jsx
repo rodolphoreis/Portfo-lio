@@ -24,7 +24,7 @@ const Presentation = () => {
           <h1 className="h1Color">Rodolpho Reis</h1>
           <h2>Desenvolvedor Front-end</h2>
           <button data-aos="fade-right" onClick={openModal}>
-            Curriculo
+            Currículo
           </button>
         </div>
         <div data-aos="fade-left" className="image">

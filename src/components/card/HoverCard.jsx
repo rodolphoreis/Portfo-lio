@@ -19,12 +19,11 @@ const HoverCard = () => {
           <img src="/img-projetos/teste.png" alt="projetos" />
 
           <div className="content">
-            <h2>Clínica Odontológica</h2>
+            <h2>Clínica</h2>
             <p>
-              Esta aplicação web, construída com React, serve como uma interface
-              para gerenciar os serviços de uma clínica odontológica. Apresenta
-              design responsivo, animações AOS e uma experiência amigável ao
-              usuário.
+              Construída com React, serve como uma interface para gerenciar os
+              serviços de uma clínica odontológica. Apresenta design responsivo,
+              animações e uma experiência amigável ao usuário.
             </p>
             <a
               href="https://github.com/rodolphoreis/Dental-Clinic"
