@@ -40,8 +40,8 @@ const HoverCard = () => {
               cativante abre uma nova rota, permitindo que você descubra a rica
               herança e as paisagens deslumbrantes deste país encantador.
             </p>
-            <a href="#">GitHub</a>
-            <a href="#">Deploy</a>
+            <a href="https://github.com/rodolphoreis/album-portugal">GitHub</a>
+            <a href="https://album-portugal.vercel.app/">Deploy</a>
           </div>
         </div>
 
@@ -54,8 +54,8 @@ const HoverCard = () => {
               experiência de gerenciamento simples e eficaz para contatos, com
               navegação intuitiva e funcionalidades completas.
             </p>
-            <a href="#">GitHub</a>
-            <a href="#">Deploy</a>
+            <a href="https://github.com/rodolphoreis/contacts">GitHub</a>
+            <a href="https://contacts-navy-chi.vercel.app/">Deploy</a>
           </div>
         </div>
 
@@ -69,8 +69,10 @@ const HoverCard = () => {
               ao usuário e trazer estratégias de validação consistentes, com
               campos inteligentes e um design agradável.
             </p>
-            <a href="#">GitHub</a>
-            <a href="#">Deploy</a>
+            <a href="https://github.com/rodolphoreis/Form-React/tree/main">
+              GitHub
+            </a>
+            <a href="https://form-react-kohl.vercel.app/">Deploy</a>
           </div>
         </div>
 
@@ -83,8 +85,8 @@ const HoverCard = () => {
               ajudar os viajantes a organizarem seus itens essenciais de forma
               conveniente, com a capacidade de filtrar por categoria.
             </p>
-            <a href="#">GitHub</a>
-            <a href="#">Deploy</a>
+            <a href="https://github.com/rodolphoreis/to_do_list">GitHub</a>
+            <a href="https://to-do-list-omega-rose.vercel.app/">Deploy</a>
           </div>
         </div>
 
@@ -99,7 +101,6 @@ const HoverCard = () => {
               frontend.
             </p>
             <a href="#">GitHub</a>
-            <a href="#">Deploy</a>
           </div>
         </div>
       </div>
