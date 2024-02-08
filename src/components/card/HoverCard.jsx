@@ -100,7 +100,9 @@ const HoverCard = () => {
               usuários, fornecendo uma API robusta para interagir com o
               frontend.
             </p>
-            <a href="#">GitHub</a>
+            <a href="https://github.com/rodolphoreis/api-usuarios-rodolpho">
+              GitHub
+            </a>
           </div>
         </div>
       </div>
