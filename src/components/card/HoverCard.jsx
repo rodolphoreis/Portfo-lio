@@ -26,8 +26,18 @@ const HoverCard = () => {
               design responsivo, animações AOS e uma experiência amigável ao
               usuário.
             </p>
-            <a href="https://github.com/rodolphoreis/Dental-Clinic">GitHub</a>
-            <a href="https://dental-clinic-rafaella.vercel.app/">Deploy</a>
+            <a
+              href="https://github.com/rodolphoreis/Dental-Clinic"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://dental-clinic-rafaella.vercel.app/"
+              target="_blank"
+            >
+              Deploy
+            </a>
           </div>
         </div>
 
@@ -40,8 +50,15 @@ const HoverCard = () => {
               cativante abre uma nova rota, permitindo que você descubra a rica
               herança e as paisagens deslumbrantes deste país encantador.
             </p>
-            <a href="https://github.com/rodolphoreis/album-portugal">GitHub</a>
-            <a href="https://album-portugal.vercel.app/">Deploy</a>
+            <a
+              href="https://github.com/rodolphoreis/album-portugal"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a href="https://album-portugal.vercel.app/" target="_blank">
+              Deploy
+            </a>
           </div>
         </div>
 
@@ -54,8 +71,12 @@ const HoverCard = () => {
               experiência de gerenciamento simples e eficaz para contatos, com
               navegação intuitiva e funcionalidades completas.
             </p>
-            <a href="https://github.com/rodolphoreis/contacts">GitHub</a>
-            <a href="https://contacts-navy-chi.vercel.app/">Deploy</a>
+            <a href="https://github.com/rodolphoreis/contacts" target="_blank">
+              GitHub
+            </a>
+            <a href="https://contacts-navy-chi.vercel.app/" target="_blank">
+              Deploy
+            </a>
           </div>
         </div>
 
@@ -69,10 +90,15 @@ const HoverCard = () => {
               ao usuário e trazer estratégias de validação consistentes, com
               campos inteligentes e um design agradável.
             </p>
-            <a href="https://github.com/rodolphoreis/Form-React/tree/main">
+            <a
+              href="https://github.com/rodolphoreis/Form-React/tree/main"
+              target="_blank"
+            >
               GitHub
             </a>
-            <a href="https://form-react-kohl.vercel.app/">Deploy</a>
+            <a href="https://form-react-kohl.vercel.app/" target="_blank">
+              Deploy
+            </a>
           </div>
         </div>
 
@@ -85,8 +111,15 @@ const HoverCard = () => {
               ajudar os viajantes a organizarem seus itens essenciais de forma
               conveniente, com a capacidade de filtrar por categoria.
             </p>
-            <a href="https://github.com/rodolphoreis/to_do_list">GitHub</a>
-            <a href="https://to-do-list-omega-rose.vercel.app/">Deploy</a>
+            <a
+              href="https://github.com/rodolphoreis/to_do_list"
+              target="_blank"
+            >
+              GitHub
+            </a>
+            <a href="https://to-do-list-omega-rose.vercel.app/" target="_blank">
+              Deploy
+            </a>
           </div>
         </div>
 
@@ -100,7 +133,10 @@ const HoverCard = () => {
               usuários, fornecendo uma API robusta para interagir com o
               frontend.
             </p>
-            <a href="https://github.com/rodolphoreis/api-usuarios-rodolpho">
+            <a
+              href="https://github.com/rodolphoreis/api-usuarios-rodolpho"
+              target="_blank"
+            >
               GitHub
             </a>
           </div>
